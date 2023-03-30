@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "es5",
+      "dom"
+    ],
+    "baseUrl": "cypress",
+    "types": [
+      "node",
+      "cypress",
+      "cypress-react-selector",
+      "@testing-library/cypress"
+    ],
+    "resolveJsonModule": true
+  },
+  "include": [
+    "**/*.ts"
+  ]
+}
